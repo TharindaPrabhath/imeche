@@ -2,10 +2,10 @@ import { MemberCard } from './member-card';
 
 const EXECUTIVE_MEMBERS = [
   {
-    firstName: 'Maduka',
+    firstName: 'Madhuka',
     lastName: 'Dissanayake',
     designation: 'President',
-    imageUrl: '/members/batch-19/Madhuka.jpg'
+    imageUrl: '/members/batch-19/Madhuka.png'
   },
   {
     firstName: 'Ifra',
@@ -128,7 +128,7 @@ const COMMITEE_MEMBERS = [
 
 export function MembersSection() {
   return (
-    <section className='bg-gray-50 py-12'>
+    <section id='members' className='bg-gray-50 py-12'>
       <div className='container px-4 md:px-6'>
         <div className='mb-8 text-center'>
           <h2 className='text-3xl font-bold text-gray-800'>Our Team</h2>
