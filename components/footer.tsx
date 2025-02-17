@@ -6,10 +6,10 @@ import { cn } from '@/lib/utils';
 
 const LINKS = [
   { label: 'Home', href: '#' },
-  { label: 'About', href: '#' },
-  { label: 'Events', href: '#' },
-  { label: 'Members', href: '#' },
-  { label: 'Contact us', href: '#' }
+  { label: 'About', href: '#about' },
+  { label: 'Events', href: '#events' },
+  { label: 'Members', href: '#members' },
+  { label: 'Contact us', href: '#contact-us' }
 ];
 
 type FooterProps = HTMLAttributes<HTMLDivElement>;
@@ -36,19 +36,23 @@ export default function Footer({ className, ...props }: FooterProps) {
           <div className='space-y-4'>
             <h3 className='text-lg font-semibold'>Connect With Us</h3>
             <div className='flex space-x-4'>
-              <Link href='#' className='text-gray-600 transition-colors hover:text-[#E31B23]'>
+              <Link href='https://facebook.com/imecheuomsc' target='_blank' className='text-gray-600 transition-colors hover:text-[#E31B23]'>
                 <Facebook className='h-6 w-6' />
                 <span className='sr-only'>Facebook</span>
               </Link>
-              <Link href='#' className='text-gray-600 transition-colors hover:text-[#E31B23]'>
+              {/* <Link href='#' className='text-gray-600 transition-colors hover:text-[#E31B23]'>
                 <Twitter className='h-6 w-6' />
                 <span className='sr-only'>Twitter</span>
               </Link>
               <Link href='#' className='text-gray-600 transition-colors hover:text-[#E31B23]'>
                 <Instagram className='h-6 w-6' />
                 <span className='sr-only'>Instagram</span>
-              </Link>
-              <Link href='#' className='text-gray-600 transition-colors hover:text-[#E31B23]'>
+              </Link> */}
+              <Link
+                href='https://www.linkedin.com/company/imeche-student-chapter-of-university-of-moratuwa'
+                target='_blank'
+                className='text-gray-600 transition-colors hover:text-[#E31B23]'
+              >
                 <Linkedin className='h-6 w-6' />
                 <span className='sr-only'>LinkedIn</span>
               </Link>

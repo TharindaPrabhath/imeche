@@ -11,10 +11,10 @@ import { MenuIcon } from 'lucide-react';
 
 const LINKS = [
   { label: 'Home', href: '#' },
-  { label: 'About', href: '#' },
-  { label: 'Events', href: '#' },
-  { label: 'Members', href: '#' },
-  { label: 'Contact us', href: '#' }
+  { label: 'About', href: '#about' },
+  { label: 'Events', href: '#events' },
+  { label: 'Members', href: '#members' },
+  { label: 'Contact us', href: '#contact-us' }
 ];
 
 type HeaderProps = HTMLAttributes<HTMLHeadElement>;
