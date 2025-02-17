@@ -37,7 +37,7 @@ const EVENTS = [
 
 export function EventsSection() {
   return (
-    <section className='bg-white py-12'>
+    <section id='events' className='bg-white py-12'>
       <div className='container px-4 md:px-6'>
         <div className='mb-8 text-center'>
           <h2 className='text-3xl font-bold text-gray-800'>Events</h2>
