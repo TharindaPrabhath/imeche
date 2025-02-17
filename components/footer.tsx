@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import { Facebook, Instagram, Linkedin, Twitter } from 'lucide-react';
+import { Facebook, Linkedin } from 'lucide-react';
 import { HTMLAttributes } from 'react';
 import { cn } from '@/lib/utils';
 
@@ -40,14 +40,6 @@ export default function Footer({ className, ...props }: FooterProps) {
                 <Facebook className='h-6 w-6' />
                 <span className='sr-only'>Facebook</span>
               </Link>
-              {/* <Link href='#' className='text-gray-600 transition-colors hover:text-[#E31B23]'>
-                <Twitter className='h-6 w-6' />
-                <span className='sr-only'>Twitter</span>
-              </Link>
-              <Link href='#' className='text-gray-600 transition-colors hover:text-[#E31B23]'>
-                <Instagram className='h-6 w-6' />
-                <span className='sr-only'>Instagram</span>
-              </Link> */}
               <Link
                 href='https://www.linkedin.com/company/imeche-student-chapter-of-university-of-moratuwa'
                 target='_blank'
