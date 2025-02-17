@@ -24,9 +24,11 @@ export default function Header({ className, ...props }: HeaderProps) {
   return (
     <header className={cn('sticky top-0 z-50 w-full border-b bg-white', className)} {...props}>
       <div className='container flex h-16 items-center justify-between space-x-4 px-4 sm:space-x-0 md:px-6'>
-        <div className='flex items-center gap-2'>
-          <Image src='/imeche-logo.png' alt='IMechE Logo' width={200} height={50} className='h-8 w-auto' />
-        </div>
+        <Link href='/'>
+          <div className='flex items-center gap-2'>
+            <Image src='/imeche-logo.png' alt='IMechE Logo' width={200} height={50} className='h-8 w-auto' />
+          </div>
+        </Link>
 
         {/* Mobile Menu Button */}
         <button
