@@ -2,6 +2,12 @@ import { MemberCard } from './member-card';
 
 const EXECUTIVE_MEMBERS = [
   {
+    firstName: 'Dr. Lihil',
+    lastName: 'Subasinghe',
+    designation: 'Chapter Counsellor',
+    imageUrl: '/members/Lihil.jpg'
+  },
+  {
     firstName: 'Madhuka',
     lastName: 'Dissanayake',
     designation: 'President',
@@ -53,6 +59,11 @@ const COMMITEE_MEMBERS = [
     firstName: 'Niseni',
     lastName: 'Angammana',
     imageUrl: '/members/batch-20/Niseni.jpg'
+  },
+  {
+    firstName: 'Abilaash',
+    lastName: 'Arunasalam',
+    imageUrl: '/members/batch-20/Abhilaash.jpg'
   },
   {
     firstName: 'Nimantha',
