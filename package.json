@@ -6,11 +6,13 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
+    "serve": "npx serve@latest out",
     "lint": "next lint",
     "prettier:format": "prettier --write .",
     "prettier:check": "prettier --check ."
   },
   "dependencies": {
+    "@next/third-parties": "^15.1.7",
     "@radix-ui/react-dialog": "^1.1.6",
     "@radix-ui/react-slot": "^1.1.2",
     "class-variance-authority": "^0.7.1",
