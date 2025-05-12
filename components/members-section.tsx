@@ -8,38 +8,38 @@ const EXECUTIVE_MEMBERS = [
     imageUrl: '/members/Lihil.jpg'
   },
   {
-    firstName: 'Madhuka',
-    lastName: 'Dissanayake',
+    firstName: 'Niseni',
+    lastName: 'Angammana',
     designation: 'President',
-    imageUrl: '/members/batch-19/Madhuka.png'
+    imageUrl: '/members/batch-20/Niseni.jpg'
   },
   {
-    firstName: 'Ifra',
-    lastName: 'Zaheer',
+    firstName: 'Nimantha',
+    lastName: 'Adikaram',
     designation: 'Secretary',
-    imageUrl: '/members/batch-20/Ifra.jpg'
+    imageUrl: '/members/batch-21/Nimantha.png'
   },
   {
-    firstName: 'Kasun',
-    lastName: 'Attanayake',
+    firstName: 'Abilaash',
+    lastName: 'Arunasalam',
     designation: 'Treasurer',
-    imageUrl: '/members/batch-19/Kasun.jpg'
+    imageUrl: '/members/batch-20/Abhilaash.jpg'
   },
   {
-    firstName: 'Hiran',
-    lastName: 'Geethika',
+    firstName: 'Kisali',
+    lastName: 'Thumara',
     designation: 'Membership Officer',
-    imageUrl: '/members/batch-20/Hiran.png'
+    imageUrl: '/members/batch-21/Kisali.jpg'
   },
   {
-    firstName: 'Indusara',
-    lastName: 'Deshanjana',
+    firstName: 'Tharinda',
+    lastName: 'Anurajeewa',
     designation: 'Communication Officer',
-    imageUrl: '/members/batch-20/Indusara.jpg'
+    imageUrl: '/members/batch-21/Tharinda.jpg'
   }
 ];
 
-const COMMITEE_MEMBERS = [
+const COMMITTEE_MEMBERS = [
   {
     firstName: 'Dasith',
     lastName: 'Amarasinghe',
@@ -56,21 +56,6 @@ const COMMITEE_MEMBERS = [
     imageUrl: '/members/batch-19/Udara.jpg'
   },
   {
-    firstName: 'Niseni',
-    lastName: 'Angammana',
-    imageUrl: '/members/batch-20/Niseni.jpg'
-  },
-  {
-    firstName: 'Abilaash',
-    lastName: 'Arunasalam',
-    imageUrl: '/members/batch-20/Abhilaash.jpg'
-  },
-  {
-    firstName: 'Nimantha',
-    lastName: 'Adikaram',
-    imageUrl: '/members/batch-21/Nimantha.png'
-  },
-  {
     firstName: 'Nimodh',
     lastName: 'Perera',
     imageUrl: '/members/batch-21/Nimodh.jpg'
@@ -84,16 +69,6 @@ const COMMITEE_MEMBERS = [
     firstName: 'Kavin',
     lastName: 'Siriwardane',
     imageUrl: '/members/batch-21/Kavin.png'
-  },
-  {
-    firstName: 'Kisali',
-    lastName: 'Thumara',
-    imageUrl: '/members/batch-21/Kisali.jpg'
-  },
-  {
-    firstName: 'Tharinda',
-    lastName: 'Anurajeewa',
-    imageUrl: '/members/batch-21/Tharinda.jpg'
   },
   {
     firstName: 'Ajula',
@@ -158,7 +133,7 @@ export function MembersSection() {
         <div className='mt-8'>
           <h3 className='text-xl font-semibold text-gray-800'>Committee Members</h3>
           <div className='mt-8 grid grid-cols-2 gap-6 md:grid-cols-3 lg:grid-cols-4'>
-            {COMMITEE_MEMBERS.map((member, index) => (
+            {COMMITTEE_MEMBERS.map((member, index) => (
               <MemberCard key={index} {...member} />
             ))}
           </div>
