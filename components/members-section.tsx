@@ -41,19 +41,24 @@ const EXECUTIVE_MEMBERS = [
 
 const COMMITTEE_MEMBERS = [
   {
-    firstName: 'Dasith',
-    lastName: 'Amarasinghe',
-    imageUrl: '/members/batch-19/Dasith.jpg'
+    firstName: 'Ifra',
+    lastName: '',
+    imageUrl: '/members/batch-20/Ifra.jpg'
   },
   {
-    firstName: 'Kalindu',
-    lastName: 'Salith',
-    imageUrl: '/members/batch-19/Kalindu.jpg'
+    firstName: 'Indusara',
+    lastName: '',
+    imageUrl: '/members/batch-20/Indusara.jpg'
   },
   {
-    firstName: 'Udara',
-    lastName: 'Senadhipathi',
-    imageUrl: '/members/batch-19/Udara.jpg'
+    firstName: 'Yasith',
+    lastName: '',
+    imageUrl: '/members/batch-20/Yasith.jpg'
+  },
+  {
+    firstName: 'Hiran',
+    lastName: '',
+    imageUrl: '/members/batch-20/Hiran.png'
   },
   {
     firstName: 'Nimodh',
