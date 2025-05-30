@@ -2,6 +2,12 @@ import { EventCard } from './event-card';
 
 const EVENTS = [
   {
+    name: 'Initiating & Executing Research & Development Project',
+    description: 'A workshop on initiating and executing a project by Prof. Ruwan Gopura.',
+    imageUrl: '/events/initiating-executing-research-development-project.jpg',
+    fbLink: 'https://www.facebook.com/imecheuomsc/posts/pfbid02ZtAFqBoSZaes4BHihASBmiFFijnnoEDEbYthdN5yt9UXPQuXNXYXpMsS9gmZnhH5l'
+  },
+  {
     name: 'IMechE Student Chapter Awards',
     description: 'IMechE Student Chapter was recognized as the Runner-Up by IMechE Sri Lanka Group for 2023/24.',
     imageUrl: '/events/student-chapter-awards.jpg',
