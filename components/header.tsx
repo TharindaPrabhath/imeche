@@ -4,17 +4,17 @@ import { cn } from '@/lib/utils';
 import Image from 'next/image';
 import Link from 'next/link';
 import { HTMLAttributes, useState } from 'react';
-
-import { Sheet, SheetContent } from '@/components/ui/sheet';
+import { Sheet, SheetContent, SheetHeader, SheetTitle } from '@/components/ui/sheet';
 
 import { MenuIcon } from 'lucide-react';
 
 const LINKS = [
-  { label: 'Home', href: '#' },
-  { label: 'About', href: '#about' },
-  { label: 'Events', href: '#events' },
-  { label: 'Members', href: '#members' },
-  { label: 'Contact us', href: '#contact-us' }
+  { label: 'Home', href: '/' },
+  { label: 'About', href: '/#about' },
+  { label: 'Events', href: '/#events' },
+  { label: 'Blogs', href: '/#blog' },
+  { label: 'Members', href: '/#members' },
+  { label: 'Contact us', href: '/#contact-us' }
 ];
 
 type HeaderProps = HTMLAttributes<HTMLHeadElement>;
