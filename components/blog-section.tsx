@@ -1,5 +1,4 @@
 "use client"
-import { Linkedin } from 'lucide-react';
 
 import { useEffect, useState } from 'react';
 
@@ -47,7 +46,7 @@ export function BlogSection() {
 						>
 						<img
 							src="blogs/20250725/blog1.jpg"
-							alt="Blog Thumbnail"
+							
 							className="w-64 h-40 object-cover rounded-md"
 						/>
 						<div className="flex flex-col justify-center text-left w-full">

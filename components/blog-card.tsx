@@ -1,4 +1,4 @@
-import Image from 'next/image';
+
 import { Button } from '@/components/ui/button';
 import { Linkedin } from 'lucide-react';
 
@@ -29,7 +29,10 @@ export function AuthCard({ name, batch, linkedin }: AuthCardProps) {
     <div className='overflow-hidden rounded-lg bg-white shadow-md transition-all duration-300 hover:shadow-xl flex items-center'>
       <div className='p-4 flex-1'>
         <img
-          src='/blogs/20250725/author.jpg'>  </img>
+          src='/blogs/20250725/author.jpg'
+          alt='Author Photo'
+          className='w-20 h-28 object-cover rounded-lg mb-4'
+          /> 
         <h3 className='mb-2 text-lg font-semibold'>{name}</h3>
         <p className='mb-4 text-sm text-gray-600'>{batch}</p>
         <Button asChild className='w-full bg-[#E31B23] hover:bg-[#c41820]'>

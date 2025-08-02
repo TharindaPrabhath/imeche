@@ -3,6 +3,7 @@ import { useEffect, useState } from 'react';
 import { EVENTS } from '@/components/blog-section';
 import { AUTH } from '@/components/blog-section';
 import { Linkedin } from 'lucide-react';
+import Image from 'next/image';
 
 export default function BlogPage() {
   const [description, setDescription] = useState('');
@@ -17,7 +18,7 @@ export default function BlogPage() {
     <section id='blog' className='bg-white py-12'>
       <div className='container px-4 md:px-4'>
         <div className='mb-8 text-center'>
-          <h2 className='text-3xl font-bold text-gray-800'>This week's article</h2>
+          <h2 className='text-3xl font-bold text-gray-800'>This week&apos;s article</h2>
           <p className='mt-2 text-gray-600'>28th July 2025</p>
         </div>
 
@@ -45,9 +46,11 @@ export default function BlogPage() {
           {/* Author Card (Right-aligned) */}
           <div className="flex items-center bg-gray-100 rounded-lg shadow p-8 w-full max-w-sm min-h-40">
             {/* Author Photo */}
-            <img
-              src="/blogs/20250725/author.jpg" // Replace with actual image path if needed
+            <Image
+              src="/blogs/20250725/author.jpg"
               alt={AUTH[0].name}
+              width={80}   // w-20 = 5rem = 80px
+              height={112} // h-28 = 7rem = 112px
               className="w-20 h-28 object-cover rounded-lg mr-4"
             />
 
