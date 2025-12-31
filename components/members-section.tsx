@@ -8,114 +8,186 @@ const EXECUTIVE_MEMBERS = [
     imageUrl: '/members/Lihil.jpg'
   },
   {
-    firstName: 'Niseni',
-    lastName: 'Angammana',
-    designation: 'President',
-    imageUrl: '/members/batch-20/Niseni.jpg'
-  },
-  {
-    firstName: 'Nimantha',
-    lastName: 'Adikaram',
-    designation: 'Secretary',
-    imageUrl: '/members/batch-21/Nimantha.png'
-  },
-  {
-    firstName: 'Abilaash',
-    lastName: 'Arunasalam',
-    designation: 'Treasurer',
-    imageUrl: '/members/batch-20/Abhilaash.jpg'
+    firstName: 'Nimodh',
+    lastName: 'Perera',
+    designation: 'Chairman',
+    imageUrl: '/members/Excom/Nimodh.jpg'
   },
   {
     firstName: 'Kisali',
     lastName: 'Thumara',
-    designation: 'Membership Officer',
-    imageUrl: '/members/batch-21/Kisali.jpg'
-  },
-  {
-    firstName: 'Tharinda',
-    lastName: 'Anurajeewa',
-    designation: 'Communication Officer',
-    imageUrl: '/members/batch-21/Tharinda.jpg'
-  }
-];
-
-const COMMITTEE_MEMBERS = [
-  {
-    firstName: 'Ifra',
-    lastName: '',
-    imageUrl: '/members/batch-20/Ifra.jpg'
-  },
-  {
-    firstName: 'Indusara',
-    lastName: '',
-    imageUrl: '/members/batch-20/Indusara.jpg'
-  },
-  {
-    firstName: 'Yasith',
-    lastName: '',
-    imageUrl: '/members/batch-20/Yasith.jpg'
-  },
-  {
-    firstName: 'Hiran',
-    lastName: '',
-    imageUrl: '/members/batch-20/Hiran.png'
-  },
-  {
-    firstName: 'Nimodh',
-    lastName: 'Perera',
-    imageUrl: '/members/batch-21/Nimodh.jpg'
-  },
-  {
-    firstName: 'Navodi',
-    lastName: '',
-    imageUrl: '/members/batch-21/Navodi.jpg'
+    designation: 'Secretary',
+    imageUrl: '/members/EXcom/Kisali.jpg'
   },
   {
     firstName: 'Kavin',
-    lastName: 'Siriwardane',
-    imageUrl: '/members/batch-21/Kavin.png'
-  },
-  {
-    firstName: 'Ajula',
-    lastName: 'Kariyawasam',
-    imageUrl: '/members/batch-22/Ajula.jpg'
+    lastName: 'Siriwardana',
+    designation: 'Junior Treasurer',
+    imageUrl: '/members/Excom/Kavin.jpg'
   },
   {
     firstName: 'Didula',
     lastName: 'Jayasekara',
-    imageUrl: '/members/batch-22/Didula.jpg'
-  },
-  {
-    firstName: 'Dilshan',
-    lastName: 'Thennakoon',
-    imageUrl: '/members/batch-22/Dilshan.jpg'
+    designation: 'Vice Chairman',
+    imageUrl: '/members/EXcom/Didula.jpg'
   },
   {
     firstName: 'Dulithi',
     lastName: 'Wijesooriya',
-    imageUrl: '/members/batch-22/Dulithi.jpg'
-  },
-  {
-    firstName: 'Manindu',
-    lastName: 'Pavan',
-    imageUrl: '/members/batch-22/Manindu.jpg'
-  },
-  {
-    firstName: 'Mayuka',
-    lastName: 'Premathilaka',
-    imageUrl: '/members/batch-22/Mayuka.jpg'
+    designation: 'Assisstant Secretary',
+    imageUrl: '/members/EXcom/Dulithi.jpg'
   },
   {
     firstName: 'Nimash',
     lastName: 'Herath',
-    imageUrl: '/members/batch-22/Nimash.jpg'
-  },
-  {
-    firstName: 'Yasiru',
-    lastName: 'Wickramage',
-    imageUrl: '/members/batch-22/Yasiru.jpg'
+    designation: 'Webmaster',
+    imageUrl: '/members/EXcom/Nimash.jpg'
   }
 ];
+
+const in_and_ext_affairs = [ 
+
+  {
+    firstName: 'Methini',
+    lastName: 'Perera',
+    batch: '21',
+    designation: 'Batch 21',
+    imageUrl: '/members/inexaffairs/Methini.jpg'
+  },
+
+  // 22nd Batch
+  {
+    firstName: 'Mayuka',
+    lastName: 'Hiranya',
+    batch: '22',
+    designation: 'Batch 22',
+    imageUrl: '/members/inexaffairs/Mayuka.jpg'
+  },
+
+  // 23rd Batch
+  {
+    firstName: 'Samith',
+    lastName: 'Subhashana',
+    batch: '23',
+    designation: 'Batch 23',
+    imageUrl: '/members/inexaffairs/Samith.jpg'
+  }
+
+];
+const program_pillar = [
+  // 21st Batch
+  {
+    firstName: 'Dinula',
+    lastName: 'Wijesuriya',
+    batch: '21',
+    designation: 'Batch 21',
+    imageUrl: '/members/program/Dinula.jpg'
+  },
+
+  // 22nd Batch
+  {
+    firstName: 'Visal',
+    lastName: 'Gunawardena',
+    batch: '22',
+    designation: 'Batch 22',
+    imageUrl: '/members/program/Visal.jpg'
+  },
+
+  // 23rd Batch
+  {
+    firstName: 'Yashmi',
+    lastName: 'Jayaweera',
+    batch: '23',
+    designation: 'Batch 23',
+    imageUrl: '/members/program/Yashmi.jpg'
+  }
+];
+
+const design_pillar = [
+  // 21st Batch
+  {
+    firstName: 'Navodi',
+    lastName: 'Wijesekara',
+    batch: '21',
+    designation: 'Batch 21',
+    imageUrl: '/members/design/Navodi.jpg'
+  },
+
+  // 22nd Batch
+  {
+    firstName: 'Hasarangi',
+    lastName: 'Withanawasam',
+    batch: '22',
+    designation: 'Batch 22',
+    imageUrl: '/members/design/Hasarangi.jpg'
+  },
+
+  // 23rd Batch
+  {
+    firstName: 'Dasun',
+    lastName: 'Sanjaya',
+    batch: '23',
+    designation: 'Batch 23',
+    imageUrl: '/members/design/Dasun.jpg'
+  }
+];
+const editorial_pillar = [
+  // 21st Batch
+  {
+    firstName: 'Nimantha',
+    lastName: 'Adikaram',
+    batch: '21',
+    designation: 'Batch 21',
+    imageUrl: '/members/editorial/Nimantha.jpg'
+  },
+
+  // 22nd Batch
+  {
+    firstName: 'Anjula',
+    lastName: 'Kariyawasam',
+    batch: '22',
+    designation: 'Batch 22',
+    imageUrl: '/members/editorial/Anjula.jpg'
+  },
+
+  // 23rd Batch
+  {
+    firstName: 'Unduli',
+    lastName: 'Senadheera',
+    batch: '23',
+    designation: 'Batch 23',
+    imageUrl: '/members/editorial/Unduli.jpg'
+  }
+];
+const finance_pillar = [
+  // 21st Batch
+  {
+    firstName: 'Hansaka',
+    lastName: 'Jayalath',
+    batch: '21',
+    designation: 'Batch 21',
+    imageUrl: '/members/finance/Hansaka.jpg'
+  },
+
+  // 22nd Batch
+  {
+    firstName: 'Tharidu',
+    lastName: 'Jayasundara',
+    batch: '22',
+    designation: 'Batch 22',
+    imageUrl: '/members/finance/Tharidu.jpg'
+  },
+
+  // 23rd Batch
+  {
+    firstName: 'Paranthaman',
+    lastName: '',
+    batch: '23',
+    designation: 'Batch 23',
+    imageUrl: '/members/finance/Paranthaman.jpg'
+  }
+];
+
 
 export function MembersSection() {
   return (
@@ -136,13 +208,46 @@ export function MembersSection() {
         </div>
 
         <div className='mt-8'>
-          <h3 className='text-xl font-semibold text-gray-800'>Committee Members</h3>
+          <h3 className='text-xl font-semibold text-gray-800'>Internal and External Affairs Pillar Heads</h3>
           <div className='mt-8 grid grid-cols-2 gap-6 md:grid-cols-3 lg:grid-cols-4'>
-            {COMMITTEE_MEMBERS.map((member, index) => (
+            {in_and_ext_affairs.map((member, index) => (
               <MemberCard key={index} {...member} />
             ))}
           </div>
         </div>
+        <div className='mt-8'>
+          <h3 className='text-xl font-semibold text-gray-800'>Program Pillar Heads</h3>
+          <div className='mt-8 grid grid-cols-2 gap-6 md:grid-cols-3 lg:grid-cols-4'>
+            {program_pillar.map((member, index) => (
+              <MemberCard key={index} {...member} />
+            ))}
+          </div>
+        </div>
+        <div className='mt-8'>
+          <h3 className='text-xl font-semibold text-gray-800'>Design Pillar Heads</h3>
+          <div className='mt-8 grid grid-cols-2 gap-6 md:grid-cols-3 lg:grid-cols-4'>
+            {design_pillar.map((member, index) => (
+              <MemberCard key={index} {...member} />
+            ))}
+          </div>
+        </div>
+        <div className='mt-8'>
+          <h3 className='text-xl font-semibold text-gray-800'>Editorial Pillar Heads</h3>
+          <div className='mt-8 grid grid-cols-2 gap-6 md:grid-cols-3 lg:grid-cols-4'>
+            {editorial_pillar.map((member, index) => (
+              <MemberCard key={index} {...member} />
+            ))}
+          </div>
+        </div>
+        <div className='mt-8'>
+          <h3 className='text-xl font-semibold text-gray-800'>Finance Pillar Heads</h3>
+          <div className='mt-8 grid grid-cols-2 gap-6 md:grid-cols-3 lg:grid-cols-4'>
+            {finance_pillar.map((member, index) => (
+              <MemberCard key={index} {...member} />
+            ))}
+          </div>
+        </div>
+        
       </div>
     </section>
   );
