@@ -5,11 +5,11 @@ import { HTMLAttributes } from 'react';
 import { cn } from '@/lib/utils';
 
 const LINKS = [
-  { label: 'Home', href: '#' },
-  { label: 'About', href: '#about' },
-  { label: 'Events', href: '#events' },
-  { label: 'Members', href: '#members' },
-  { label: 'Contact us', href: '#contact-us' }
+  { label: 'Home', href: '/' },
+  { label: 'About', href: '/#about' },
+  { label: 'Events', href: '/#events' },
+  { label: 'Members', href: '/#members' },
+  { label: 'Contact us', href: '/#contact-us' }
 ];
 
 type FooterProps = HTMLAttributes<HTMLDivElement>;
